@@ -1,0 +1,25 @@
+digraph binarysearchtree {
+
+    //difining nodes for bst 
+        node [shape=record,color=green];
+
+        A [label="<left> | <data> 10 | <right>"];
+        B [label="<left> | <data> 20 | <right>"];
+        C [label="<left> | <data> 30 | <right>"];
+        D [label="<left> | <data> 40 | <right>"];
+        E [label="<left> | <data> 50 | <right>"];
+        F [label="<left> | <data> 60 | <right>"];
+        G [label="<left> | <data> 70 | <right>"];
+
+
+    //difining edges for bst
+
+        edge[arrowhead=open,arrowtail=none,dir=both,color=black]
+        
+        A:left -> B:data[color = red]
+        A:right -> C:data[color = red]
+        B:left -> D:data
+        B:right -> E:data
+        C:left -> F:data
+        C:right -> G:data
+}
