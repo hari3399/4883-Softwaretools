@@ -1,6 +1,6 @@
-##Project: Graphviz BST
+Project: Graphviz BST
 
-#Name: Hari Krishna Mundra
+Name: Hari Krishna Mundra
 
 Project description: creating a binary search tree that contains seven nodes and uses a record as its shape using Graphviz opensource visualization tool.
 
