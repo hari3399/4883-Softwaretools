@@ -1,3 +1,10 @@
+
+# Assingment : familytree - A05 
+# student name: harikrishna mundra
+# professor : Dr.griffin
+# course : software tools
+
+
 import pandas as pd
 from graphviz import Digraph
 import random
@@ -35,9 +42,9 @@ def create_family_tree(file_path):
     # Add edges
     for _, row in df.iterrows():
         if pd.notnull(row['mother_id']):
-            g.edge(str(int(row['mother_id'])), str(row['id']),label='Born')
+            g.edge(str(int(row['mother_id'])), str(row['id']))
         if pd.notnull(row['father_id']):
-            g.edge(str(int(row['father_id'])), str(row['id']),label='Born')
+            g.edge(str(int(row['father_id'])), str(row['id']))
         if pd.notnull(row['spouse_id']):
             g.edge(str(row['id']), str(int(row['spouse_id'])), label='Married')
 
@@ -45,3 +52,4 @@ def create_family_tree(file_path):
     g.save()
 
 create_family_tree('family_tree.csv')
+
