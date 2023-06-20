@@ -153,7 +153,7 @@ layout = [
 
 
 # Create the window
-window = sg.Window('CSV Data Viewer', layout, size=(500, 300))
+window = sg.Window('CSV Data Viewer', layout, size=(600, 300))
 
 # Event loop
 while True:
