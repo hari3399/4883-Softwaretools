@@ -3,7 +3,7 @@ Name : harikrishna mundra
 Class : CS-4883 Software tools
 Assignment : Assignment 7
 Date : 06/20/2023
-Description : This program scrapes the data from the website and saves it in a csv file.
+Description : This program scrapes the data from the website and saves it in a csv file and reads it from the file shows on screen using PySimpleGui.
 professor : Dr. griffin 
 """
 
