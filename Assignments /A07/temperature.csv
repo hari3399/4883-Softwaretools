@@ -1,0 +1,2 @@
+date,actual_high_temp,histavg_high_temp,record_high_temp,actual_low_temp,histavg_low_temp,record_low_temp,actual_avg_temp,histavg_avg_temp,record_avg_temp,actual_precip,histavg_precip,record_precipitation
+2020-12-31,86,87,--,75,73,--,79.5,80,-,0.00,--,-
