@@ -1,4 +1,9 @@
 """
+Name : harikrishna mundra
+Class : CS-4883 Software tools
+Assignment : Assignment 7
+Date : 06/20/2023
+professor : Dr. griffin 
 Overview:
 This program uses Selenium to render a web page and then uses BeautifulSoup to parse the HTML.
 The program then prints the parsed HTML to the console.
@@ -125,6 +130,13 @@ while True:
 
 # Close the window
 window.close()
+
+# References 
+# https://data.library.virginia.edu/getting-started-with-web-scraping-in-python/
+# https://pysimplegui.trinket.io/demo-programs#/tables/the-table-element
+# https://github.com/rugbyprof/4883-Software-Tools/blob/master/Assignments/A07/get_weather.py
+# https://github.com/rugbyprof/4883-Software-Tools/blob/master/Assignments/A07/gui.py
+
 
 
     
