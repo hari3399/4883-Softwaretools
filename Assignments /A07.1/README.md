@@ -16,7 +16,7 @@ this project create a Python program that scrapes weather data from a website an
 
 ## Sample Url1 input&output screenshots
 
-<img width="495" alt="url1_input" src="https://github.com/hari3399/4883-Softwaretools/assets/123417887/b4c836ac-58fe-48bf-ae1b-b4521d687b09
+<img width="495" alt="url1_input" src="https://github.com/hari3399/4883-Softwaretools/assets/123417887/b4c836ac-58fe-48bf-ae1b-b4521d687b09">
   
 <img width="832" alt="url1_output" src="https://github.com/hari3399/4883-Softwaretools/assets/123417887/96081bf1-3bff-4e1c-82c8-ddb0cea127da">
 
@@ -31,6 +31,18 @@ this project create a Python program that scrapes weather data from a website an
 <img width="506" alt="url3_input" src="https://github.com/hari3399/4883-Softwaretools/assets/123417887/7cf7b1e9-be56-4f74-a693-6f9fbe681fbc">
 
 <img width="821" alt="url3_output" src="https://github.com/hari3399/4883-Softwaretools/assets/123417887/9c8e3f12-2477-4dbd-80fd-aa4df16185a6">
+
+
+## Acknowledgements
+
+ https://data.library.virginia.edu/getting-started-with-web-scraping-in-python/
+ 
+ https://pysimplegui.trinket.io/demo-programs#/tables/the-table-element
+ 
+ https://github.com/rugbyprof/4883-Software-Tools/blob/master/Assignments/A07/get_weather.py
+  
+ https://github.com/rugbyprof/4883-Software-Tools/blob/master/Assignments/A07/gui.py
+
 
 
 
