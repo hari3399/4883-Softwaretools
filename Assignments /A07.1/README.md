@@ -14,6 +14,15 @@ this project create a Python program that scrapes weather data from a website an
 
 5. The scraped weather data will be formatted and displayed in a table using PySimpleGUI.
 
+## Program execution instructions
+1. Install the required libraries: PySimpleGUI, BeautifulSoup, selenium. You can install them using pip, the package installer for Python. Open a command prompt or terminal and run the following commands:  pip install PySimpleGUI
+                     pip install beautifulsoup4
+                     pip install selenium
+
+2. Make sure that all the provided  script files are placed in the same directory. If you're using a different name for the Chrome WebDriver executable file or the JSON file, you'll need to update the import statements accordingly.
+
+3. Run the file named get_weather.py.
+
 ## Sample Url1 input&output screenshots
 
 <img width="495" alt="url1_input" src="https://github.com/hari3399/4883-Softwaretools/assets/123417887/b4c836ac-58fe-48bf-ae1b-b4521d687b09">
