@@ -24,7 +24,7 @@ Description : This project aims to provide a Python script that allows users to 
 
 | No | file name                | Description                |
 | :--| :------------------------| :------------------------- |
-|  1 | `generateFamilyTreeDOT.py` | python file that creates dot file |
+|  1 | [generateFamilyTreeDOT.py] | python file that creates dot file |
 |  2 | `generateFamilyTreeCSV.py` | python file that creates input csv file| 
 | 3  |   `family_tree.csv` | input family tree file|
 |4| `family_tree.dot`| dot output file created by script|
