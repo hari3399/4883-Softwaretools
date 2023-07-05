@@ -14,6 +14,17 @@ this project create a Python program that scrapes weather data from a website an
 
 5. The scraped weather data will be formatted and displayed in a table using PySimpleGUI.
 
+## files
+
+| No | file name                | Description                |
+| :--| :------------------------| :------------------------- |
+|  1 |[GenerateFamilyTreeDOT.py](./generateFamilyTreeDOT.py) | python file that creates dot file |
+|  2 | `generateFamilyTreeCSV.py` | python file that creates input csv file| 
+| 3  |   `family_tree.csv` | input family tree file|
+|4| `family_tree.dot`| dot output file created by script|
+|5| ` family_tree.png`| output familytree image|
+
+
 ## Program execution instructions
 1. Install the required libraries: PySimpleGUI, BeautifulSoup, selenium. You can install them using pip, the package installer for Python. Open a command prompt or terminal and run the following commands:  pip install PySimpleGUI
                      pip install beautifulsoup4
