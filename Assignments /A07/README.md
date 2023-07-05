@@ -18,8 +18,8 @@ this project create a Python program that scrapes weather data from a website an
 
 | No | file name                | Description                |
 | :--| :------------------------| :------------------------- |
-|  1 |[GenerateFamilyTreeDOT.py](./generateFamilyTreeDOT.py) | python file that creates dot file |
-|  2 | `generateFamilyTreeCSV.py` | python file that creates input csv file| 
+|  1 |[Generate_url.py](./generate_url.py) | python file that bulids the url using user input |
+|  2 | [Get_weather.py] (./get_weather.py) | python file that scrapes the data and display output| 
 | 3  |   `family_tree.csv` | input family tree file|
 |4| `family_tree.dot`| dot output file created by script|
 |5| ` family_tree.png`| output familytree image|
