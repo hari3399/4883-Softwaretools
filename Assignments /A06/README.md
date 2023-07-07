@@ -13,7 +13,7 @@ To use Vim, follow these steps:
 2. Type `vim` followed by the name of the file you want to edit, e.g., `vim myfile.txt`.
 3. Press **Enter** to open the file in Vim.
 4. You will be in the "normal" mode by default. Use the following commands to navigate and edit the file:
-   # Vim Insert Modes
+   # Vim Insert Mode
 
 In Vim, there are several ways to enter insert mode, which allows you to insert and edit text. Here are the most common ways to enter insert mode:
 
