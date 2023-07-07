@@ -15,7 +15,7 @@ The main features of the API include:
 
 5. Calculating Average Deaths per Day: The API also provides an endpoint to calculate the average number of deaths per day within a specified date range and country. Users can provide the country name, minimum date, and maximum date, and the API will calculate the average number of deaths per day based on the provided criteria.
 
-# Endpoints and usage
+## Endpoints and usage
 The API provides the following endpoints:
 
 #### Get Unique Countries
