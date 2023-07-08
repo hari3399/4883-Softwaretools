@@ -158,7 +158,7 @@ async def get_cases(
     region: str = Query(None, description="who code"),
     year: int = Query(None, description="year")
 ):
-    # Assuming `db` is your dataset
+    
     total_cases = geting_total_cases(db, country, region, year)
     
     return {"total_no_of _cases": total_cases}
@@ -170,7 +170,7 @@ async def get_deaths(
     region: str = Query(None, description="who code"),
     year: int = Query(None, description="year")
 ):
-    # Assuming `db` is your dataset
+
     total_deaths = geting_total_deaths(db, country, region, year)
     
     return {"total_no_of_deaths": total_deaths }
