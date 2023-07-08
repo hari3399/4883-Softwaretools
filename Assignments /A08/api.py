@@ -215,6 +215,12 @@ async def get_deaths(
 
 @app.get("/highest_deaths")
 async def geting_highest_deaths():
+
+    """ 
+    - no input parameters taking gives highest numbers of deaths and name of the country from  all of our input db 
+    
+    """
+
     country, deaths = finding_country_with_highest_deaths(db)
 
     return {
@@ -227,7 +233,12 @@ async def geting_highest_deaths():
 
 
 @app.get("/minimum_deaths")
-async def get_minimum_deaths():
+async def get_minimum_deaths
+
+    """ 
+    - no input parameters taking gives minimum number of deaths and name of the country from  all of our input db 
+    
+    """
     country, deaths = find_country_with_minimum_deaths(db)
 
     return {
@@ -245,6 +256,26 @@ async def get_average_deaths(
     start_date: str = Query(None, description="Start date YYYY-MM-DD"),
     end_date: str = Query(None, description="End date YYYY-MM-DD")
 ):
+
+    """ 
+     this route gives total avarage deaths in the country with in a rate rage 
+     
+     input paramenters :   - Country name 
+                           - WHO region code 
+                           - year 
+                           
+                           
+    returns :  
+    
+     - if no input in provided it will return avarage number of deaths all over the data base like (total deaths in db / no of days in db == avrg deaths per day)
+     
+     -  if country name prvided it wil return avarage number of deaths in that particular country (total deaths in country  / no of days == avrg deaths per day)
+     
+     - if country name along with particular date range is provided it will return avrg deaths in that country in that paticular date range 
+     
+    
+    
+    """
     average_deaths = calculate_average_deaths(db, country, start_date, end_date)
 
     return {
