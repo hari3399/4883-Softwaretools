@@ -189,6 +189,25 @@ async def get_deaths(
     year: int = Query(None, description="year")
 ):
 
+      ''' this route gives total deaths in the country ,region and year according to input provided.
+     
+     input paramenters :   - Country name 
+                           - WHO region code 
+                           - year 
+                           
+                           
+    returns :  
+    
+     - if no input in provided it will return total deaths for all the avilable countries
+     
+     -  if country name prvided it wil return total deaths in that country
+     
+     -  if region is provided it will return total deaths  in that region 
+     
+     - if country name or  region provided along with year it will return total deaths for that country or region in that particular year will return 
+
+    '''
+
     total_deaths = geting_total_deaths(db, country, region, year)
     
     return {"total_no_of_deaths": total_deaths }
