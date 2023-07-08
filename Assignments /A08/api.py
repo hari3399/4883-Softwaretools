@@ -158,6 +158,24 @@ async def get_cases(
     region: str = Query(None, description="who code"),
     year: int = Query(None, description="year")
 ):
+   ''' this route gives total cases in the country ,region and year according to input provided.add.
+     
+     input paramenters :   - Country name 
+                           - WHO region code 
+                           - year 
+                           
+                           
+    returns :  
+    
+     - if no input in provided it will return total cases for all the avilable countries
+     
+     -  if country name prvided it wil return total cases in that country
+     
+     -  if region is provided it will return total cases in that region 
+     
+     - if country name or  region provided along with year it will return total cases for that country or region in that particular year will return 
+
+    '''
     
     total_cases = geting_total_cases(db, country, region, year)
     
